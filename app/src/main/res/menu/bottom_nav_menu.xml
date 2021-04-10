@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/images"
+        android:icon="@drawable/ic_image"
+        android:title="@string/images" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search" />
+    <item
+        android:id="@+id/branch"
+        android:icon="@drawable/ic_branches"
+        android:title="@string/branch" />
+
+</menu>

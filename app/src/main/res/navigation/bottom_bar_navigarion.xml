@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/images">
+
+    <fragment
+        android:id="@+id/images"
+        android:name="android.example.capstoneproject.imageui.FragmentImages"
+        android:label="@string/images"
+        tools:layout="@layout/fragment_images" />
+
+    <fragment
+        android:id="@+id/search"
+        android:name="android.example.capstoneproject.FragmentSearch"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/branch"
+        android:name="android.example.capstoneproject.FragmentBranches"
+        android:label="@string/branch"
+        tools:layout="@layout/fragment_branches" />
+
+</navigation>
