@@ -29,4 +29,5 @@ public class Images {
     public void setCode(String code) {
         this.code = code;
     }
+    
 }
